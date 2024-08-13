@@ -27,4 +27,14 @@
     <None Include="E:\Git_Repository_Local_Path\OfficeGameZone\OfficeGameZone\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\src\Application\Application.csproj" />
+    <ProjectReference Include="..\src\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\src\Presentation\Presentation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
